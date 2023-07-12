@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-center{
+    display: flex;
+    width: 90vw;
+    max-width: 1280px; 
+    align-items: center;
+  
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    height: 96px;
+    margin-right: 200px;
+}
+
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    height: 0;
+    width: 100%;
+}
+
+.nav-links>a{
+
+     color:black
+}
+.login{
+    color: black;
+margin-right: 20px;
+}
+
+.nav-links>a:hover{
+    color: rgb(148, 31, 148);
+}
+
+.signup{
+    background-color: rgb(60, 60, 189);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.nav-link{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #717172;
+    align-items: center;
+    margin-right: 100px;
+    width: max-content;
+}
+
+.contact-link {
+    margin-right: 0;
+    margin-left: auto;
+}
+.webinar{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.para1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+     padding: 20px;
+}
+.bottom-image{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+
+    
+
+
